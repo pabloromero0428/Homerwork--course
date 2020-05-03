@@ -1,0 +1,97 @@
+#titulo {
+    text-align: center;
+}
+
+.container {
+    margin: 0 2rem 0 2rem;
+}
+
+.container div {
+    background-color: #b0b3b3;
+    width: 31%;
+}
+
+.container #item1 {
+    border: solid 1px #363636;
+}
+
+.container #item2 {
+    border: solid 1px #363636;
+}
+
+.container #item3 {
+    border: solid 1px #363636;
+}
+
+.container div article {
+    padding: 1rem;
+}
+
+.container-title {
+    width: 97.5% !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-title .subtitle1 {
+    background-color: rgb(28, 73, 73);
+    padding: 1em;
+    margin-block-start: 0;
+    color: #fff;
+    width: 63px;
+    border: solid 1px #363636;
+}
+
+.container-title .subtitle2 {
+    background-color: rgb(11, 87, 15);
+    padding: 1em;
+    margin-block-start: 0;
+    color: #fff;
+    width: 63px;
+    border: solid 1px #363636;
+}
+
+.container-title .subtitle3 {
+    background-color: rgb(235, 78, 5);
+    padding: 1em;
+    margin-block-start: 0;
+    color: #fff;
+    width: 63px;
+    border: solid 1px #363636;
+}
+
+@media only screen and (min-width: 992px) {
+    .container div {
+        float: left;
+        margin: 0 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container div {
+        width: 100%;
+        display: block;
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .container {
+        display: block;
+    }
+    #item1 {
+        float: left;
+        width: 47%;
+        margin: 0.5rem;
+    }
+    #item2 {
+        float: left;
+        width: 47%;
+        margin: 0.5rem;
+    }
+    #item3 {
+        float: left;
+        display: block;
+        width: 97%;
+    }
+}
